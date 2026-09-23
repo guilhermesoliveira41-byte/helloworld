@@ -1,7 +1,7 @@
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import 'banco interno/tarefa.dart';
+import 'tarefa.dart';
 
 class DatabaseHelper {
   static Database? _database;
